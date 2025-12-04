@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>IUB Register</title>
+    <link rel="stylesheet" href="/CSS/register.css">
 </head>
+
 <body>
-    <h3>you are loged</h3>
+
+    <div class="container">
+
+        <button class="back-btn" onclick="goBack()">
+            ← Back to Home
+        </button>
+
+        <div class="card">
+            <div class="card-header">
+                <div class="logo">IUB</div>
+                <h2>Create Account</h2>
+                <p>Register with your IUB email to join the portal</p>
+            </div>
+
+            <form id="registerForm">
+                
+                <div class="input-group">
+                    <label>Full Name</label>
+                    <br>
+                    <input type="text" id="name" placeholder="John Doe" required>
+
+                        
+                </div>
+
+                <div class="input-group">
+                    <label>IUB Email Address</label>
+                    <br>
+                    <input type="email" id="email" placeholder="your.name@iub.edu.bd" required>
+                    <br>
+                    <small>Must use your official IUB email address</small>
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <br>
+                    <input type="password" id="password" placeholder="Minimum 6 characters" required>
+                </div>
+
+                <div class="input-group">
+                    <label>Confirm Password</label>
+                    <br>
+                    <input type="password" id="confirmPassword" placeholder="Re-enter password" required>
+                </div>
+
+                <button class="register-btn" type="submit">Create Account</button>
+
+                <p class="login-text">
+                    Already have an account?
+                    <a href="Login.html">Login here</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script src="/Java/register.js"></script>
 </body>
 </html>

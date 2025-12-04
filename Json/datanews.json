@@ -1,0 +1,34 @@
+[
+  {
+    "image": "/assets/iub-news.jpg",
+    "category": "Announcement",
+    "title": "News Title 1",
+    "description": "Brief description of news item 1.",
+    "author": "Admin",
+    "link": "#"
+  },
+  {
+    "image": "/assets/iub-news.jpg",
+    "category": "Campus Update",
+    "title": "IUB Organizes Annual Tech Fest 2025",
+    "description": "The Department of CSE successfully hosted the annual tech fest with multiple competitions and workshops.",
+    "author": "IUB Editorial Team",
+    "link": "#"
+  },
+  {
+    "image": "/assets/iub-news.jpg",
+    "category": "Event",
+    "title": "Seminar on AI & Future Tech",
+    "description": "Students attended a seminar discussing the future of artificial intelligence and its impact on industry.",
+    "author": "Faculty of Engineering",
+    "link": "#"
+  },
+  {
+    "image": "/assets/iub-news.jpg",
+    "category": "Notice",
+    "title": "Mid-term Exam Schedule Published",
+    "description": "The official mid-term exam routine for Spring 2025 has been released. Students are advised to check the notice board.",
+    "author": "Examination Office",
+    "link": "#"
+  }
+]
