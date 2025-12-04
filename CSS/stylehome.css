@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}   
+
+
+.button_custom{
+    background-color: white; /* Green */
+    border: none;
+    color: rgb(39, 39, 146);
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.header{
+    background: linear-gradient(135deg, #1e40af 0%, #0891b2 100%);
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 70px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.navbar ul li {
+    margin-left: 20px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+.bannar {
+    background-color: #f0f4f8;
+    text-align: center;
+    padding: 60px 20px;
+}
+.bannar h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.bannar p {
+    font-size: 18px;
+    color: #555;
+}
+.trending {
+    padding: 40px 20px;
+    margin-inline: 100px;
+}
+.trending h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.trending-articles {
+    display: flex;
+    gap: 20px;
+}
+.news-container {
+    display: flex;
+    gap: 20px;
+    padding: 40px 20px;
+}
+.box-div {
+    display: inline-block;
+    background: rgb(44, 44, 207);
+    color: white;
+    padding-inline: 10px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+    text-align: center;
+    width: fit-content;
+    margin-top: 10px;
+}
+.news-item {
+    box-shadow: #555 0px 4px 12px;
+    border-radius: 10px;
+    padding-inline: 20px;
+    padding-block: 10px;
+    width: 500px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.news-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-card{
+    width: full;
+    height: 200px;
+    border-radius: 10px;
+}
+.read-more {
+    color: rgb(40, 40, 41);
+    text-decoration: none;
+}
+.read-more:hover {
+    text-decoration: underline;
+}
